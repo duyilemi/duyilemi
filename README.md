@@ -101,7 +101,7 @@ I build **production-grade AI systems** powered by Large Language Models, scalab
 
 * 📧 Email: [charlieduyilemi@yahoo.com](mailto:charlieduyilemi@yahoo.com)
 * 💻 GitHub: https://github.com/duyilemi
-* 🔗 LinkedIn: https://linkedin.com/in/charlesolajid
+* 🔗 LinkedIn: https://linkedin.com/in/charlesolajide
 
 ---
 
