@@ -1,110 +1,95 @@
-# Hi, I'm Charles Olajide 👋
+# Charles Olajide | Production AI Engineer
 
-### **AI Engineer | LLM Systems | Cloud & MLOps**
+**I build end-to-end AI systems that actually ship** — from LLM-powered applications and computer vision pipelines to cloud infrastructure and automated data workflows.
 
-I build **production-grade AI systems** powered by Large Language Models, scalable backend architectures, and cloud-native infrastructure.
-
----
-
-## 🚀 About Me
-
-* AI Engineer specializing in **LLM-powered applications & RAG systems**
-* Experienced in **designing, deploying, and scaling AI systems**
-* Strong background in **FastAPI, AWS, Azure, and MLOps pipelines**
-* Focused on building **reliable, high-performance production systems**
+📧 charlieduyilemi@yahoo.com | 🔗 [LinkedIn](https://linkedin.com/in/charlesolajide) | 💻 [GitHub](https://github.com/duyilemi)
 
 ---
 
-## 🧠 Tech Stack
+## What I Do
 
-### **Machine Learning & AI**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-E34F26?style=for-the-badge\&logo=pytorch\&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge\&logo=tensorflow\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
-
-### **LLM & AI Systems**
-
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C1C1C?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-0A0A0A?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFCC00?style=for-the-badge)
-
-### **Backend & APIs**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-
-### **Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge\&logo=terraform\&logoColor=white)
+- **Architect LLM Systems** — Design RAG pipelines, multimodal AI workflows, and agent-based orchestration (LangGraph, LangChain, Groq)
+- **Ship Production Backend** — Build FastAPI services with proper testing, monitoring, and CI/CD (Docker, GitHub Actions, Azure Monitor)
+- **Automate Data & Infrastructure** — Create Airflow pipelines, Terraform configurations, and MLOps workflows that run themselves
+- **Optimize for Constraints** — Deploy AI on edge devices and CPU-only environments (ONNX, quantization, batch processing)
 
 ---
 
-## ⭐ Featured Projects
+## Featured Projects
 
-### 🔍 Video Audit AI
+### 🤖 Automated Video Compliance Auditor (LLM + Multimodal AI)
+*Intelligent video auditing system for content moderation and policy compliance*
 
-**Multimodal compliance auditing system for video content**
+- Built intelligent video auditing system leveraging RAG and Azure OpenAI (GPT-4) to analyze content against regulatory frameworks
+- Integrated Azure Video Indexer for speech-to-text and OCR extraction, enabling multimodal content understanding
+- Designed FastAPI backend with telemetry monitoring via Azure Monitor for production observability
+- Reduced manual compliance review effort through automated detection workflows and violation flagging
 
-* Extracts speech and on-screen text (OCR)
-* Uses RAG to retrieve regulatory and policy context
-* Orchestrated with LangGraph workflows
-* Detects brand safety and compliance violations
-
----
-
-### 🏥 Medical RAG Chatbot
-
-**Production-ready AI assistant for medical queries**
-
-* Retrieval-Augmented Generation (RAG) pipeline
-* LangChain + Pinecone vector database
-* Hugging Face models (Mistral-7B)
-* CI/CD deployment on AWS
+**Stack:** Azure OpenAI, Azure Video Indexer, FastAPI, RAG, LangGraph
 
 ---
 
-### ⚙️ Terraform AWS Infrastructure
+### 📸 AI Photo Organizer (Computer Vision + Edge AI)
+*Offline-first photo classification tool that runs AI entirely on local CPU*
 
-**Automated cloud infrastructure provisioning**
+- Built intelligent photo classification system leveraging PyTorch and ONNX Runtime for offline CPU inference without GPU dependency
+- Exported MobileNetV3 model from PyTorch to ONNX, reducing deployment footprint from 800MB to 22MB (97% size reduction)
+- Designed dual-interface architecture with Tkinter desktop GUI and FastAPI web service supporting concurrent batch uploads
+- Achieved 2x inference throughput via SIMD-optimized batch processing (8 images/concurrent) on Intel Core i3 processors
 
-* Infrastructure-as-Code using Terraform
-* AWS environment setup (compute, networking, services)
-* Reproducible and scalable deployments
-
----
-
-### 🤖 Telegram Hugging Face Bot
-
-**LLM-powered conversational Telegram bot**
-
-* Supports local (polling) and production (webhook) modes
-* Built with Hugging Face models
-* Designed for scalability and deployment
+**Stack:** PyTorch, ONNX Runtime, FastAPI, Tkinter, Docker, PyInstaller
 
 ---
 
-## 📈 Engineering Focus
+### 📰 AI News Summarizer Pipeline (Data Engineering + LLM Orchestration)
+*Production-grade data pipeline with automated orchestration and dataset versioning*
 
-* Designing **LLM-powered systems at scale**
-* Building **robust backend architectures for AI applications**
-* Automating **ML pipelines and deployment workflows**
-* Delivering **production-ready AI solutions**
+- Built end-to-end data pipeline with Apache Airflow orchestrating daily news ingestion, data quality validation, and LLM-based summarization via Groq API
+- Implemented dataset versioning with DVC and designed FastAPI backend serving processed summaries through REST API with nginx reverse proxy
+- Containerized multi-service architecture (PostgreSQL, Redis, Airflow, FastAPI, nginx) using Docker Compose with automated email alerting on pipeline failures
+- Established CI/CD with GitHub Actions and comprehensive Pytest coverage for data fetching, API endpoints, and quality validation logic
 
----
-
-## 📫 Contact
-
-* 📧 Email: [charlieduyilemi@yahoo.com](mailto:charlieduyilemi@yahoo.com)
-* 💻 GitHub: https://github.com/duyilemi
-* 🔗 LinkedIn: https://linkedin.com/in/charlesolajide
+**Stack:** Apache Airflow, Groq API, FastAPI, DVC, Docker, PostgreSQL, Pytest
 
 ---
 
-## ⚡ Philosophy
+### ⚙️ AWS Infrastructure Automation (Terraform + Cloud Architecture)
+*Infrastructure-as-Code for reproducible cloud environments*
 
-> Build systems that are not just intelligent — but scalable, reliable, and production-ready.
+- Provisioned complete AWS environments (compute, networking, IAM, storage) using Terraform modules for consistent, repeatable deployments
+- Implemented infrastructure state management and modular configurations supporting multiple environments (dev/staging/production)
+- Automated deployment workflows reducing environment setup time from manual configuration to single `terraform apply`
+
+**Stack:** Terraform, AWS (EC2, S3, IAM, VPC), Infrastructure as Code
+
+---
+
+## Technical Toolkit
+
+**AI & Machine Learning:** Python, PyTorch, ONNX, LangChain, LangGraph, RAG, Vector DBs (Pinecone), Hugging Face, Groq
+
+**Backend & APIs:** FastAPI, Uvicorn, REST API design, Async programming, JWT auth
+
+**Data & MLOps:** Apache Airflow, DVC, Pandas, NumPy, Data validation, ETL pipelines
+
+**Cloud & DevOps:** AWS, Azure, Docker, Docker Compose, Terraform, GitHub Actions, CI/CD
+
+**Testing & Quality:** Pytest, unittest, Test-driven development, Data quality checks
+
+---
+
+## Beyond the Code
+
+I don't just train models—I ship complete systems. That means:
+- **Error handling** when APIs fail
+- **Monitoring** so you know when things break  
+- **Tests** so you can refactor without fear
+- **Documentation** so the next engineer can onboard quickly
+
+&gt; "Build systems that are not just intelligent — but scalable, reliable, and production-ready."
+
+---
+
+**Open to opportunities in:** AI Engineering, LLM Systems, Data Engineering, MLOps, Backend Development
+
+📫 **Reach me:** charlieduyilemi@yahoo.com | [LinkedIn](https://linkedin.com/in/charlesolajide)
