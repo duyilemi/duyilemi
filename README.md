@@ -86,8 +86,6 @@ I don't just train models—I ship complete systems. That means:
 - **Tests** so you can refactor without fear
 - **Documentation** so the next engineer can onboard quickly
 
-&gt; "Build systems that are not just intelligent — but scalable, reliable, and production-ready."
-
 ---
 
 **Open to opportunities in:** AI Engineering, LLM Systems, Data Engineering, MLOps, Backend Development
