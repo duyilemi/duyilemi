@@ -1,4 +1,4 @@
-# Charles Olajide | Production AI Engineer
+# Production AI Engineer
 
 **I build end-to-end AI systems that actually ship** — from LLM-powered applications and computer vision pipelines to cloud infrastructure and automated data workflows.
 
